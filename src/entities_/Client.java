@@ -41,6 +41,10 @@ public class Client {
 		return birthday;
 	}
 	
+	public String getSpecialClient () {
+		return "saul amor";
+	}
+	
 	public String toString() {
 	    return "Client:"+ this.name+" ("+sdf1.format(this.birthday)+") - "+this.email+"n";
 
